@@ -47,9 +47,9 @@ public class CharExample {
 		 *  2) 빈 문자 처리에 대해 
 		 */
 //		char c = ''; // 컴파일 에러
-		char c = ' '; // 공백 문자 (유니코드: 32) 존재하므로 저장 가능
+//		char c = ' '; // 공백 문자 (유니코드: 32) 존재하므로 저장 가능
 //		System.out.println((int) ' ');
-		String str = ""; // 빈 문자열(empty string) 저장 가능
+//		String str = ""; // 빈 문자열(empty string) 저장 가능
 		
 		
 		
