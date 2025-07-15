@@ -1,0 +1,15 @@
+package sec02.exam05;
+
+public class Ses {
+
+	public static void main(String[] args) {
+		// String: 참조타입, 타입이 다문자로 시작함에 주의!
+		String name = "김성대";
+		String job = "프로그래머";
+
+		System.out.println(name);
+		System.out.println(job);
+
+	}
+
+}
