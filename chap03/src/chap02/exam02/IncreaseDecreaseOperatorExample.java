@@ -49,14 +49,14 @@ public class IncreaseDecreaseOperatorExample {
 		x = 3;
 		
 		if(x++ == 3) {
-			x++;
+			x++; //4
 		}// z = x; = x+1;
 		System.out.println("x=" + x);
 		
 		System.out.println("------------------"); 
 		// 다음 코드 실행 후 x,y의 값은?
 		x = 1;	
-		y = x++ + ++x + x; // y = x; + x+1 + 1;
+		y = x++ + ++x + x; // y = 2 + 2 + 2 = 6?
 		System.out.println("x=" + x);
 		System.out.println("y=" + y);
 		
