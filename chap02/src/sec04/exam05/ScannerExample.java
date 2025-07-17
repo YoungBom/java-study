@@ -2,7 +2,7 @@ package sec04.exam05;
 
 import java.util.Scanner;
 
-
+//TODO 스캐너 설명한것.
 
 public class ScannerExample {
 
