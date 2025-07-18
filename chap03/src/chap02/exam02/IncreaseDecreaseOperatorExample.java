@@ -56,7 +56,7 @@ public class IncreaseDecreaseOperatorExample {
 		System.out.println("------------------"); 
 		// 다음 코드 실행 후 x,y의 값은?
 		x = 1;	
-		y = x++ + ++x + x; // y = 2 + 2 + 2 = 6?
+		y = x++ + ++x + x; // 
 		System.out.println("x=" + x);
 		System.out.println("y=" + y);
 		
