@@ -1,10 +1,14 @@
 package homework;
 
+import java.util.Scanner;
+
 public class Homework4 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("수집된 코드:");
+		
 	}
 
 }
