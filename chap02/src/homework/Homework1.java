@@ -11,7 +11,7 @@ public class Homework1 {
 //		System.out.println(weight /(height * height) );
 
 		Scanner sc = new Scanner(System.in); // 선생님이 제시해주신 방식은 내가 직접 입력하여 어떤 숫자가 나오든 계산식에서 계산할 수 있게
-											// 스캐너를 활용한 방법 (다시 숙지)
+												// 스캐너를 활용한 방법 (다시 숙지)
 		System.out.println("몸무게(kg):");
 		double weight = sc.nextDouble();
 
@@ -19,9 +19,13 @@ public class Homework1 {
 		double height = sc.nextDouble();
 
 		double bmi = weight / (height * height);
-		//System.out.println("BMI 지수:" + bmi);  이 방식은 소수점 자리까지 전부출력한다.   
-		//System.out.printf("BMI 지수: %.1f\n" , bmi); //이럴때엔 프린트f로 소수점 자리 출력까지를 의도한다.
+		// System.out.println("BMI 지수:" + bmi); 이 방식은 소수점 자리까지 전부출력한다.
+		// System.out.printf("BMI 지수: %.1f\n" , bmi); //이럴때엔 프린트f로 소수점 자리 출력까지를 의도한다.
 		System.out.println("BMI 지수:" + (int) (bmi * 10) / 10.0); // 이 방식은
+		System.out.printf("BMI 지수: %.1f\n", bmi);
+		System.out.println("BMI 지수: " + (int) (bmi * 10) / 10.0);
+		System.out.println("BMI 지수: " + Math.floor(bmi * 10) / 10.0);
+
 	}
 
 }
