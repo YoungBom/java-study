@@ -8,5 +8,21 @@ public class Car {
 	int maxSpeed = 300;
 	int speed;
 	
+	// 클래스 내부에서의 필드 사용
+		// => 필드 이름으로 사용
+		
+		/*
+		// 생성자
+		Car() {
+			speed = 30;
+			System.out.println(company);
+		}
+		
+		// 메소드
+		void method() {
+			speed = 50;
+			System.out.println(model);
+		}
+		*/
 		
 }
