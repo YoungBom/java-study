@@ -1,4 +1,4 @@
-package chap07.sec01.exam03_02;
+package sec03.exam03;
 
 // 자식 클래스: 신용카드 결제
 public class CardPayment extends PaymentService {
