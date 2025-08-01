@@ -1,0 +1,24 @@
+package sec.exam20;
+
+public class StringToLowerUpperCaseExample {
+// 알파벳 대소문자 변경에 대한 메소드 
+	public static void main(String[] args) {
+		String str1 = "JAVA Programming";
+		String str2 = "java programming";
+		
+		System.out.println(str1.equals(str2));
+		System.out.println(str1.equals(str2)); // 알파벳 대소문자를 구분함
+		
+		// 대소문자 상관없이 비교하고 싶을 때
+		// 방법1
+		String lowerStr1 = str1.toLowerCase();
+		String lowerStr2 = str1.toLowerCase();
+		System.out.println(lowerStr1);
+		System.out.println(lowerStr2);
+		System.out.println(lowerStr1.equals(lowerStr2));
+		
+		// 방법2
+		System.out.println(str1.equalsIgnoreCase(str2));
+	}
+
+}
