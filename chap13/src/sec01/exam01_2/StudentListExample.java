@@ -17,13 +17,13 @@ public class StudentListExample {
 		// 사용자 정의 객체를 사용할 경우 indexOf(), contains()가
 		// 해당 객체 존재 여부를 판단하는 기준은 equals()
 		// equals() 메소드를 재정의(오버라이딩) 해야 동등 객체로 판단
-		if (studentList.indexOf(new Student("김재현", 30)) != -1) {
+		if (studentList.indexOf(new Student("앵이", 29)) != -1) {
 			System.out.println("indexOf: 있다.");
 		} else {
 			System.out.println("indexOf: 없다.");			
 		}
 		
-		if (studentList.contains(new Student("김재현", 30))) {
+		if (studentList.contains(new Student("앵이", 29))) {
 			System.out.println("contains: 있다.");
 		} else {
 			System.out.println("contains: 없다.");			

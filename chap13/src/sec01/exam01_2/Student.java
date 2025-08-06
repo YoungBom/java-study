@@ -11,9 +11,7 @@ public class Student implements Comparable<Student> {
 	private String name;
 	private int age;
 	
-	public Student() {
-	}
-
+	
 	public Student(String name, int age) {
 		this.name = name;
 		this.age = age;
@@ -70,7 +68,7 @@ public class Student implements Comparable<Student> {
 		// String 클래스에 재정의된 compareTo() 사용
 		// 기준 문자열이 사전상 뒤면 자리 바꿈
 		// 기준 문자열이 사전상 앞이면 그대로 유지
-//		"김재현".compareTo("박민수"); -> 음수 -> 그대로 유지
+//		"김성대".compareTo("박민수"); -> 음수 -> 그대로 유지
 //		return name.compareTo(other.name); // 오름차순
 //		return other.name.compareTo(name); // 내림차순
 	}

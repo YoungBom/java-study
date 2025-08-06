@@ -93,8 +93,8 @@ public class ArrayListExample {
 		System.out.println(strList);
 		
 		// 오름차순
-		Collections.sort(strList);
-		System.out.println(strList);
+
+
 		
 		// 내림차순
 		// Comparator: 정렬 기준 제공
