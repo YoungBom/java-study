@@ -14,8 +14,7 @@ public class ScannerExample {
 			inputData = sc.nextLine(); // 스캐너에서 읽은 한 줄 전체 (엔터키 이전까지)
 			System.out.println("입력된 문자열:" + inputData);
 
-			if (inputData.equals("q")) {
-//			if (inputData.equals("q"))
+			if (inputData.equals("q")) {		
 				break;
 			}
 		}

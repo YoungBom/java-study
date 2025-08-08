@@ -35,26 +35,33 @@ public class ProductStorage {
 		}
 	}
 
-	public void showProducts() {
-		
-		
-	}
-
 	public void registerProduct() {
 		// Quiz
-		
-		// 상품 번호는 1부터
-		
-		System.out.println("상품명: " + sc);
-
-		
-		System.out.println("가격: " + sc);
-		
-		
-		System.out.println("재고: " + sc);
+		try {
+			Product product = new Product();
+			
+			// 상품 번호는 1부터
+			product.setPno(++counter);
+			
+			System.out.print("상품명: ");
+			product.setName(sc.nextLine());
+			
+			System.out.print("가격: ");
+			product.setPrice(Integer.parseInt(sc.nextLine()));
+			
+			System.out.print("재고: ");
+			product.setStock(Integer.parseInt(sc.nextLine()));
+			
+			list.add(product);
+		} catch (Exception e) { // 문자열을 정수로 바꿀 때 발생 가능한 예외 처리
+			System.out.println("등록 에러: " + e.getMessage());
+		}
 		
 	}
+	
+	public void showProducts() {
+		for (Product p : list) {
+			System.out.println(p.getPno() + "\t" + p.getName() + "\t" + p.getPrice() + "\t" + p.getStock());
+		}
+	}
 }
-	
-	
-	
