@@ -78,6 +78,11 @@ public class DBConnection {
 			e.printStackTrace();
 		}
 	}
+
+	public void deleteBoard(String boardNum) {
+		
+		
+	}
 	
 	// DB 연결 테스트
 //	public static void main(String[] args) {
